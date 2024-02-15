@@ -1,0 +1,60 @@
+.card:hover {
+     transform: translateY(0%);
+}
+.watch-icons {
+     position: absolute;
+     bottom: 5px;
+}
+.watch-icons i:hover {
+     cursor: pointer;
+}
+#more {
+     display: none;
+}
+
+.form-control:focus {
+     box-shadow: none;
+}
+.card-inner {
+     display: none;
+}
+.card .btn {
+     background-color: #005430;
+     border-color: #005430;
+     color: #fff;
+}
+.card .btn:hover {
+     background-color: #03693d;
+}
+div.dropdown-menu {
+     inset: 0px 98px auto auto !important;
+}
+.card .fa-play {
+     top: 41%;
+ }
+time {
+     bottom: 5px;
+     left: 18px ;
+}
+.card .card-title {
+     height: 30px;
+}
+@media (min-width: 992px) {
+     time {
+          font-size: 13px;
+     }
+     .fa-play {
+          font-size: 20px !important;
+     }
+}
+@media (max-width: 1062px) {
+     #myBtn {
+          margin-bottom: 60px !important;
+     }
+}
+@media (min-width: 570px) {
+     .reply-time {
+          font-size: 10px;
+     }
+}
+
