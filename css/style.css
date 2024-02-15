@@ -192,4 +192,10 @@ time {
           margin-top: 16px !important;
           margin-bottom: 16px !important;
      }
+     .none2 {
+          display: none;
+     }
+     .pt-mo{
+          padding-top: 10px !important;
+     }
 }
